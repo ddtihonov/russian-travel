@@ -1,0 +1,28 @@
+.intro{
+    max-width: 690px;
+    padding: 92px 0 92px;
+    margin: 0 auto 0 148px;
+}
+
+
+@media (max-width: 1024px){
+    .intro{
+        margin-left: 48px;
+    }
+}
+
+@media (max-width: 768px){
+    .intro{
+        max-width: calc(100% - (32px + 16 * (100vW - 320px) / 448));
+        padding: 88px 0 88px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 425px){
+    .intro{
+        font-size: 32px;
+        max-width: 288px;
+        padding: 64px 0 64px;
+    }
+}

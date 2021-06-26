@@ -1,165 +1,62 @@
-@font-face {
-	font-family: 'Inter-Regular';
-	src: url('/fonts/Inter-Regular.eot');
-	src: local('☺'), url('/fonts/Inter-Regular.woff') format('woff'), url('/fonts/Inter-Regular.ttf') format('truetype'), url('/fonts/Inter-Regular.svg') format('svg');
-	font-weight: 400;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Inter-Black';
-	src: url('/fonts/Inter-Black.eot');
-	src: local('☺'), url('/fonts/Inter-Black.woff') format('woff'), url('/fonts/Inter-Black.ttf') format('truetype'), url('/fonts/Inter-Black.svg') format('svg');
-	font-weight: 900;
-	font-style: normal;
-}
-
-
 @import url(../vendor/normalize.css);
 
+/*Подключаем fonts*/
+@import url(../fonts/fonts.css);
 
-.page {
-    max-width: 1280px;
-    display: block;
-    margin: 0 auto;
-    background-color: #2A2C2F;
-    font-family:  inter, sans-serif;
-    color: #FFFFFF;
-}
+/*Подключаем page*/
+@import url(../bloсks/page/page.css);
 
-.header{
-    max-width: calc(100% - 96px); 
-    padding-top: 28px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;  
-}
+/*Подключаем header*/
+@import url(../bloсks/header/header.css);
+@import url(../bloсks/header/__logo/header__logo.css);
+@import url(../bloсks/header/__links/header__links.css);
+@import url(../bloсks/header/__lahg-link/header__lang-link.css);
+@import url(../bloсks/header/__lahg-link/_line/header__lang-link_line.css);
 
-.header__logo{
-    width: 176px;
-}
+/*Подключаем lead*/
+@import url(../bloсks/lead/lead.css);
+@import url(../bloсks/lead/__title/lead__title.css);
+@import url(../bloсks/lead/__subtitle/lead__subtitle.css);
+@import url(../bloсks/lead/__image/lead__image.css);
+@import url(../bloсks/lead/__caption/lead__caption.css);
 
-.header__links{
-    margin-top: 18px;
-    margin-bottom: 6px;
-}
+/*Подключаем intro*/
+@import url(../bloсks/intro/intro.css);
+@import url(../bloсks/intro/__list/intro__list.css);
+@import url(../bloсks/intro/__text/intro__text.css);
+@import url(../bloсks/intro/__title/into__title.css);
 
-.header__lang-link{
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    color: #FFFFFF;
-    text-align: right;
-    text-decoration-line: underline;
-    margin: 0;
-}
+/*Подключаем content*/
+@import url(../bloсks/content/content.css);
 
-.header__lang-link:last-child{
-    text-decoration: none;
-    margin-left: 18px;
-}
+/*Подключаем photo-grid*/
+@import url(../bloсks/photo-grid/photo-grid.css);
+@import url(../bloсks/photo-grid/__item/photo-grid__item.css);
 
-.content{
-    width: 100%;
-    margin: 0 auto;
-}
+/*Подключаем places*/
+@import url(../bloсks/places/places.css);
 
-.lead{
-    width: calc(100% - 296px);
-    padding-top: 56px;
-    position: relative;
-    margin: 0 auto;
-}
-
-.lead__title{
-    max-width: 720px;
-    padding-top: 56px;
-    font-size: 96px;
-    font-weight: 900;
-    line-height: 100px;
-    text-align: center;
-    margin: 0 auto;   
-}
-
-.lead__subtitle{
-    max-width: 640px;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 36px;
-    text-align: center;
-    margin: 32px auto 64px;
-}
-.lead__image{
-    max-width: 100%;
-    height: 615px;
-    background-image: url(../images/lead-polka.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-}
-
-.lead__caption{
-    width: calc(158 / 984 * 100 * 1%);
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 14px;
-    margin: 0;
-    margin-top: 8px;
-    text-transform: uppercase;
-}
-
-/*Блок ИНТРО*/
-
-.intro{
-    width: 690px;
-    padding: 92px 0 92px;
-    margin: 0 442px 0 148px;
-}
+/*Подключаем cover*/
+@import url(../bloсks/cover/cover.css);
+@import url(../bloсks/cover/__background/cover__background.css);
+@import url(../bloсks/cover/__overlay/cover__overlay.css);
+@import url(../bloсks/cover/__text/cover__text.css);
+@import url(../bloсks/cover/__title/cover__title.css);
+@import url(../bloсks/cover/__subtitle/cover__subtitle.css);
 
 
-.intro__list{
-    width: 100%;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+/* Подключаем footer*/
 
-.intro__text{
-    max-width: 100%;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26.08px;
-    margin: 0 0 33px;
-}
+@import url(../bloсks/footer/footer.css);
+@import url(../bloсks/footer/__menu/footer__menu.css);
+@import url(../bloсks/footer/__links/footer__links.css);
+@import url(../bloсks/footer/__link/footer__link.css);
+@import url(../bloсks/footer/__copyright/footer__copyrigth.css);
+@import url(../bloсks/footer/__cell/footer__cell.css);
 
-.intro__title{
-    width: 100%;
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 58px;
-    margin: 0 0 40px;
-}
 
-.photo-grid{
-    max-width: calc(100% - 96px);
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    gap: 16px;
-    margin: 0 auto;
-}
-
-.photo-grid__item{
-    max-width: 100%;
-    object-fit: cover;
-}
-
-/*Блок plases*/
 .plases{
-    width: calc(984 / 1280 * 100 * 1%);    
+    max-width: calc(100% - 296px);    
     padding-top: 92px;
     padding-bottom: 92px;
 }
@@ -167,9 +64,9 @@
 .plase{
     width: 100%;
     margin-bottom: 80px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 45px;
     margin: 0 auto;
 }
 
@@ -231,134 +128,6 @@
     margin-bottom: 0;
 }
 
-.cover{
-    width: calc(1184 / 1280 * 100 * 1%);
-    height: 740px;
-    position: relative;
-    margin: 0 auto;
-}
-
-.cover__background{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    background-image: url(../images/cover-trains.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    margin: 0;
-}
-/*
-.cover__overlay{
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    margin: 0;
-    background-color: #2A2C2F;
-    opacity: 0.3;
-}
-*/
-.cover__link{
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    margin: 0;
-    background-color: #2A2C2F;
-    opacity: 0.3;
-}
-
-.cover__text{
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    margin: 0;
-}
-
-.cover__title{
-    width: calc(560 / 1184 * 100 * 1%);
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.cover__subtitle{
-    width: calc(360 / 1184 * 100 * 1%);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    margin: 32px auto 0;
-    text-align: center;
-}
-
-.footer{
-    width: calc(100% - 96px);
-    padding: 92px 0 24px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-
-.footer__links{
-    width: calc(460 / 1184 * 100 * 1%);
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.footer__cell{
-    margin-left: 18px;
-}
-
-.footer__cell:first-child{
-    margin-left: 0;
-}
-
-.footer__link{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-.footer__copyright{
-    width: calc(460 / 1184 * 100 * 1%);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    margin: 0;
-    text-align: right;
-}
-
-.link__hover:hover{
-    opacity: .8;
-    transition-duration: 1.5s;
-}
-
 .box{
     border: 1px solid rebeccapurple;
-}
-
-@media (max-width: 1280px){}
-@media (max-width: 1024px){
-    
-}
-@media (max-width: 768px){
-   
-}
-@media (max-width: 320px){
-    
 }

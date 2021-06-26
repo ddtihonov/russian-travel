@@ -1,0 +1,18 @@
+.footer__cell{
+    margin-left: 18px;
+}
+
+.footer__cell:first-child{
+    margin-left: 0;
+}
+
+@media (max-width: 425px){
+    .footer__cell{
+        margin-left: 0;
+        margin-top: 32px;
+    }
+
+    .footer__cell:first-child{
+        margin-top: 0;
+    }
+}

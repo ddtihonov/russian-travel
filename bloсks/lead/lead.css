@@ -1,0 +1,26 @@
+.lead{
+    width: calc(100% - 296px);
+    padding-top: 56px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px){
+    .lead{
+        width: calc(100% - 96px);
+        padding-top: 48px;
+    }
+}
+
+@media (max-width: 768px){
+    .lead{
+        width: 100%;
+        padding-top: 48px;
+    }
+}
+
+@media (max-width: 425px){
+    .lead{
+        max-width: 100%;
+        padding-top: 48px;
+    }
+}

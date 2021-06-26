@@ -1,0 +1,25 @@
+.cover__text{
+    max-width: 560px;
+    padding: 245px 0;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px){
+    .cover__text{
+        padding: 195px 0;
+    }
+}
+
+@media (max-width: 768px){
+    .cover__text{
+        max-width: (100% - (16px + 88 * (100vW - 320px) / 448));
+        padding: 115px 0;
+    }
+}
+
+@media (max-width: 425px){
+    .cover__text{
+        max-width: 288px;
+        padding: 33px 0;
+    }
+}
