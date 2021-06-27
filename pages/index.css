@@ -26,7 +26,7 @@
 @import url(../bloсks/intro/__list/intro__list.css);
 @import url(../bloсks/intro/__text/intro__text.css);
 @import url(../bloсks/intro/__title/into__title.css);
-@import url(../bloсks/intro/__list/_digit/intro__list_digit.css);
+@import url(../bloсks/intro/__span-accent/intro___span-accent.css);
 
 /*Подключаем content*/
 @import url(../bloсks/content/content.css);
