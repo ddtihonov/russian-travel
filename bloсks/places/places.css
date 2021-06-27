@@ -13,7 +13,7 @@
 
 @media (max-width: 768px){
     .plases{
-        max-width: calc(100% - (24px + 24 * (100% - 425px) / 343));      
+        max-width: calc(100% - (24px + 24 * (100% - 425px) / 343));
         padding-top: 88px;
         padding-bottom: 90px;
     }
