@@ -15,7 +15,7 @@
     .intro__title{
         max-width: 100%;
         line-height: calc(35 / 32);
-        font-size: calc(32px + 22  * (100vW - 320px) / 448);
+        font-size: calc(32px + 22  * (100vw - 320px) / 448);
     }
 }
 

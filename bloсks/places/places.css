@@ -1,5 +1,5 @@
 .plases{
-    max-width: calc(100% - (96px + 200 * (100% - 1024px) / 256));    
+    max-width: calc(100% - (96px + 200 * (100% - 1024px) / 256));
     padding-top: 92px;
     padding-bottom: 92px;
     margin: 0 auto;
@@ -21,7 +21,7 @@
 
 @media (max-width: 425px){
     .plases{
-        max-width: 100%;    
+        max-width: 100%;
         padding-top: 64px;
         padding-bottom: 66px;
     }
