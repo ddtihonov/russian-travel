@@ -1,0 +1,29 @@
+.plase{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: calc(32px + 8 * (100% - 1024px) / 256);
+    margin: 0 auto 80px;
+}
+
+.plase:last-child{
+    margin-bottom: 0;
+}
+
+@media (max-width: 1024px){
+    .plase{
+        gap: calc(28px + 4 * (100% - 768px) / 268);
+    } 
+}
+
+@media (max-width: 768px){
+    .plase{
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    }
+}
+
+@media (max-width: 425px){
+    .plase{
+        grid-template-columns: 1fr;
+}
+}

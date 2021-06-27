@@ -1,0 +1,28 @@
+.plase__image{
+    max-width: 460px;
+    object-fit: cover;
+    margin-top:  48px;
+}
+
+
+@media (max-width: 1024px){
+    .plase__image{
+        max-width: 440px;
+    }
+    
+}
+
+@media (max-width: 768px){
+    .plase__image{
+        max-width: 340px;
+    }
+    
+}
+
+@media (max-width: 425px){
+    .plase__image{
+        max-width: 100%;
+        margin-top:  32px;
+    }
+    
+}

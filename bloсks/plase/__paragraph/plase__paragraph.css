@@ -1,0 +1,26 @@
+.plase__paragraph{
+    max-width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    margin: 0 0 26px;
+}
+
+.plase__paragraph:last-child{
+    margin-bottom: 0;
+}
+
+@media (max-width: 1024px){
+    .plase__paragraph{
+     font-size: calc(16px + 2 * (100vw - 768px) / 268);
+    }
+    } 
+
+@media (max-width: 768px){
+    .plase__paragraph{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0 0 25px;
+    }
+}

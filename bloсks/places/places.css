@@ -1,12 +1,28 @@
+.plases{
+    max-width: calc(100% - (96px + 200 * (100% - 1024px) / 256));    
+    padding-top: 92px;
+    padding-bottom: 92px;
+    margin: 0 auto;
+}
 
 @media (max-width: 1024px){
-
+    .plases{
+        max-width: calc(100% - (48px + 48 * (100% - 768px) / 268));    
+    }
 }
 
 @media (max-width: 768px){
-    
+    .plases{
+        max-width: calc(100% - (24px + 24 * (100% - 425px) / 343));      
+        padding-top: 88px;
+        padding-bottom: 90px;
+    }
 }
 
 @media (max-width: 425px){
-    
+    .plases{
+        max-width: 100%;    
+        padding-top: 64px;
+        padding-bottom: 66px;
+    }
 }
