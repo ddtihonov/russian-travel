@@ -26,7 +26,7 @@
 @import url(../bloсks/intro/__list/intro__list.css);
 @import url(../bloсks/intro/__text/intro__text.css);
 @import url(../bloсks/intro/__title/into__title.css);
-@import url(../bloсks/intro/__list/_digit/intro__list_digit.css);
+@import url(../bloсks/intro/__list/_line/intro__list_line_digit.css);
 
 /*Подключаем content*/
 @import url(../bloсks/content/content.css);
@@ -38,7 +38,6 @@
 /*Подключаем places*/
 @import url(../bloсks/places/places.css);
 
-
 /*Подключаем place*/
 @import url(../bloсks/plase/plase.css);
 @import url(../bloсks/plase/__title/plase__title.css);
@@ -49,7 +48,6 @@
 @import url(../bloсks/plase/__website/plase__website.css);
 @import url(../bloсks/plase/__paragraph/plase__paragraph.css);
 
-
 /*Подключаем cover*/
 @import url(../bloсks/cover/cover.css);
 @import url(../bloсks/cover/__background/cover__background.css);
@@ -58,9 +56,7 @@
 @import url(../bloсks/cover/__title/cover__title.css);
 @import url(../bloсks/cover/__subtitle/cover__subtitle.css);
 
-
 /* Подключаем footer*/
-
 @import url(../bloсks/footer/footer.css);
 @import url(../bloсks/footer/__menu/footer__menu.css);
 @import url(../bloсks/footer/__links/footer__links.css);
@@ -68,7 +64,5 @@
 @import url(../bloсks/footer/__copyright/footer__copyrigth.css);
 @import url(../bloсks/footer/__cell/footer__cell.css);
 
-
-.box{
-    border: 1px solid rebeccapurple;
-}
+/* Подключаем link-aim*/
+@import url(../bloсks/link-aim/link-aim.css)

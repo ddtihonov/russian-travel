@@ -11,10 +11,3 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
 }
-
-.link__hover:hover{
-    opacity: .8;
-    transition-duration: 1.5s;
-}
-
-
