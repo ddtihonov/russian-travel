@@ -1,23 +1,23 @@
 @font-face {
 	font-family: 'Inter-Regular';
-	src: url('/fonts/Inter-Regular.woff2');
-	src: local('☺'), url('/fonts/Inter-Regular.woff') format('woff');
+	src: url(Inter-Regular.woff2);
+	src: local('☺'), url(Inter-Regular.woff) format('woff');
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Inter-Black';
-	src: url('/fonts/Inter-Black.woff2');
-	src: local('☺'), url('/fonts/Inter-Black.woff') format('woff');
+	src: url(Inter-Black.woff2);
+	src: local('☺'), url(Inter-Black.woff) format('woff');
 	font-weight: 900;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Inter-Black';
-	src: url('/fonts/Inter-Bold.woff2');
-	src: local('☺'), url('/fonts/Inter-Bold.woff') format('woff');
+	font-family: 'Inter-Bold';
+	src: url(Inter-Bold.woff2);
+	src: local('☺'), url(Inter-Bold.woff) format('woff');
 	font-weight: 700;
 	font-style: normal;
 }
