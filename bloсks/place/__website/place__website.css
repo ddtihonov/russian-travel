@@ -1,4 +1,4 @@
-.plase__website{
+.place__website{
     max-width: 456px;
     margin-right: 28px;
     display: flex;
@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 1024px){
-    .plase__website{
+    .place__website{
         max-width: 352px;
         margin-right: 0;
     }
@@ -15,7 +15,7 @@
 
 
 @media (max-width: 425px){
-    .plase__website{
+    .place__website{
         max-width: 288px;
         padding: 0 16px 0;
     }

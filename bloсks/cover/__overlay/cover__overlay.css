@@ -3,6 +3,7 @@
     height: 100%;
     margin: 0;
     background:rgba(42, 44, 47, .3);
+    transition-duration: 1.5s;
 }
 
 .cover__overlay:hover{

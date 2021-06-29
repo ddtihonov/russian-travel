@@ -6,15 +6,15 @@
     text-align: right;
     text-decoration-line: none;
     margin: 0;
+    margin-left: 18px;
 }
 
-.header__lang-link:last-child{
-    margin-left: 18px;
+.header__lang-link:first-child{
+    margin-left: 0;
 }
 
 @media (max-width: 425px){
     .header__lang-link{
-        font-weight: 400;
         font-size: 18px;
         line-height: 20px;
     }

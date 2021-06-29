@@ -6,10 +6,6 @@
     text-decoration: none;
 }
 
-@media (max-width: 1024px){
-
-}
-
 @media (max-width: 768px){
     .footer__link{
         font-size: calc(10px + 6  * (100vw - 320px) / 448);

@@ -39,14 +39,14 @@
 @import url(../bloсks/places/places.css);
 
 /*Подключаем place*/
-@import url(../bloсks/plase/plase.css);
-@import url(../bloсks/plase/__title/plase__title.css);
-@import url(../bloсks/plase/__text/plase__text.css);
-@import url(../bloсks/plase/__image/plase__image.css);
-@import url(../bloсks/plase/__link/plase__link.css);
-@import url(../bloсks/plase/__url-heading/plase__url-heading.css);
-@import url(../bloсks/plase/__website/plase__website.css);
-@import url(../bloсks/plase/__paragraph/plase__paragraph.css);
+@import url(../bloсks/place/place.css);
+@import url(../bloсks/place/__title/place__title.css);
+@import url(../bloсks/place/__text/place__text.css);
+@import url(../bloсks/place/__image/place__image.css);
+@import url(../bloсks/place/__link/place__link.css);
+@import url(../bloсks/place/__url-heading/place__url-heading.css);
+@import url(../bloсks/place/__website/place__website.css);
+@import url(../bloсks/place/__paragraph/place__paragraph.css);
 
 /*Подключаем cover*/
 @import url(../bloсks/cover/cover.css);

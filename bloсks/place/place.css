@@ -1,4 +1,4 @@
-.plase{
+.place{
     max-width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -6,24 +6,24 @@
     margin: 0 auto 80px;
 }
 
-.plase:last-child{
+.place:last-child{
     margin-bottom: 0;
 }
 
 @media (max-width: 1024px){
-    .plase{
+    .place{
         gap: calc(28px + 4 * (100% - 768px) / 268);
     } 
 }
 
 @media (max-width: 768px){
-    .plase{
+    .place{
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     }
 }
 
 @media (max-width: 425px){
-    .plase{
+    .place{
         grid-template-columns: 1fr;
 }
 }

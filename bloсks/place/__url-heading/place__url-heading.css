@@ -1,4 +1,4 @@
-.plase__url-heading{
+.place__url-heading{
     width: 100%;
     font-weight: 400;
     font-size: 12px;
@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 768px){
-    .plase__url-heading{
+    .place__url-heading{
         line-height: 12px;
     }
 }

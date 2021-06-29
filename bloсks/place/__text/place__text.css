@@ -1,22 +1,22 @@
-.plase__text{
+.place__text{
     max-width: 484px;
     margin-top: 48px;
 }
 
 @media (max-width: 1024px){
-    .plase__text{
+    .place__text{
         max-width: 456px;
     }
 }
 
 @media (max-width: 768px){
-    .plase__text{
+    .place__text{
         max-width: 352px;
     }
 }
 
 @media (max-width: 425px){
-    .plase__text{
+    .place__text{
         max-width: 288px;
         margin-top: 32px;
         margin: 0 auto;
