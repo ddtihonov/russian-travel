@@ -1,7 +1,6 @@
 .place__image{
     max-width: 460px;
     object-fit: cover;
-    margin-top:  48px;
 }
 
 
@@ -22,7 +21,7 @@
 @media (max-width: 425px){
     .place__image{
         max-width: 100%;
-        margin-top:  32px;
+        margin-top: 0;
     }
     
 }

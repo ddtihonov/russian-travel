@@ -65,4 +65,8 @@
 @import url(../bloсks/footer/__cell/footer__cell.css);
 
 /* Подключаем link-aim*/
-@import url(../bloсks/link-aim/link-aim.css)
+@import url(../bloсks/link-aim/link-aim.css);
+
+.box{
+    border: 1px solid rebeccapurple;
+}
